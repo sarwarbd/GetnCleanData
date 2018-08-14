@@ -1,5 +1,7 @@
 Position	variable	value range	Meaning
+
 1	activity	1-6	type of activity performed
+
 	1 WALKING		
 	2 WALKING_UPSTAIRS		
 	3 WALKING_DOWNSTAIRS		
@@ -7,23 +9,41 @@ Position	variable	value range	Meaning
 	5 STANDING		
 	6 LAYING		
 2	sub_id	1-30	identifies the test subject
+
 3	tBodyAcc-mean()-X	-1 to + 1	t denotes time domain
+
 4	tBodyAcc-mean()-Y	-1 to + 1	f denotes frequency domain
+
 5	tBodyAcc-mean()-Z	-1 to + 1	
+
 6	tBodyAcc-std()-X	-1 to + 1	X, Y, Z - three axial signals
+
 7	tBodyAcc-std()-Y	-1 to + 1	
+
 8	tBodyAcc-std()-Z	-1 to + 1	Acc - accelerometer 
+
 9	tGravityAcc-mean()-X	-1 to + 1	Gyro - gyroscope 
+
 10	tGravityAcc-mean()-Y	-1 to + 1	
+
 11	tGravityAcc-mean()-Z	-1 to + 1	Body - Body accelaration
+
 12	tGravityAcc-std()-X	-1 to + 1	Gravity - Gravity accelaration
+
 13	tGravityAcc-std()-Y	-1 to + 1	
+
 14	tGravityAcc-std()-Z	-1 to + 1	
+
 15	tBodyAccJerk-mean()-X	-1 to + 1	Mag - Magnitude
+
 16	tBodyAccJerk-mean()-Y	-1 to + 1	Jerk - Jerk signals
+
 17	tBodyAccJerk-mean()-Z	-1 to + 1	
+
 18	tBodyAccJerk-std()-X	-1 to + 1	
+
 19	tBodyAccJerk-std()-Y	-1 to + 1	
+
 20	tBodyAccJerk-std()-Z	-1 to + 1	
 21	tBodyGyro-mean()-X	-1 to + 1	mean(): Mean value
 22	tBodyGyro-mean()-Y	-1 to + 1	std(): Standard deviation
